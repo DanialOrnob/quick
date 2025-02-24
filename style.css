@@ -44,8 +44,7 @@ nav ul li a {
     color: #0c66ff;
     font-size: 60px;
     font-weight: 600;
-    text-align: center;
-    
+    text-align: center;  
 }
 .text_3 {
     font-size: 15px;
@@ -53,8 +52,53 @@ nav ul li a {
     text-align: center;
     opacity: 1px;
 }
-.Bg_img {
-    width: 100%;
-    align-items: center;
-    border: none;
+.B_img{
+   width: 50%;
+   margin: auto;
+}
+.parent {
+    display: flex;
+}
+.item {
+    width: 50%;
+}
+.special {
+    text-align: right;
+    padding: 40px;
+}
+.item h1 {
+    font-size: 40px;
+    color: #3b506c;
+}
+.special h1 {
+    color: red;
+}
+
+.card {
+    margin: 20px;
+}
+.card_content {
+    display: flex;
+    gap: 25px;
+
+}
+.card_item {   
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  border-radius: 7px;
+}
+.card_item h4 {
+    font-size: 25px;
+}
+.card_item img {
+    height: 250px;
+}
+footer {
+    background-color: #3b506c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer h3 {
+    font-size: 25px;
 }
